@@ -1,0 +1,17 @@
+{
+    "name": "vitaledge/vitaledge-plugin",
+    "type": "project",
+    "authors": [
+        {
+            "name": "VitalEdge"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/deprecation-contracts": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {"VitalEdgeInc\\": "./VitalEdgeInc"}
+    }
+}
